@@ -46,7 +46,7 @@ const EXECUTE_PROGRAM = () => {
   RM.memory = [];
   const programCode = document.getElementById("code").value;
   const STDIN = document.getElementById("STDIN").value.split("");
-
+  //sd
   let MP = 0;
   RM.addAddress(0);
 
