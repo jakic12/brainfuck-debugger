@@ -40,7 +40,7 @@ const RM = {
     RM.setAddress(index, DATA_PARSER(RM.memory[index] - 1));
   },
 };
-
+//ss
 const EXECUTE_PROGRAM = () => {
   RM.parentDiv.innerHTML = "";
   RM.memory = [];
