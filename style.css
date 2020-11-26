@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  flex-direction: row;
+
+  background: #222831;
+
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+html {
+  margin: 0;
+  height: 100%;
+  font-family: Consolas, monaco, monospace;
+}
+.left {
+  width: 50%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.split {
+  width: 100%;
+  height: 50%;
+}
+
+.card {
+  background: #393e46;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.bottom {
+  margin-top: 10px;
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #222831;
+  color: white;
+  resize: none;
+  font-family: Consolas, monaco, monospace;
+}
+
+.textareaWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.STDIN {
+  width: 50%;
+}
+
+.memory {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-left: 3px;
+  box-sizing: border-box;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+}
+
+.mem_div {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background: #222831;
+}
+
+.mem_div_value {
+  width: 50%;
+  text-align: center;
+}
+.mem_div_idx {
+  width: 50%;
+  text-align: center;
+}
+
+.label {
+  color: black;
+  border-top-left-radius: 3px;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  padding: 5px;
+
+  background: #f05454;
+}

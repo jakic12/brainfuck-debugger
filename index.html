@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Debug brainfuck online</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card left">
+      <div class="textareaWrapper">
+        <textarea id="code"></textarea>
+        <div class="label">code editor</div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="card top split">
+        <div class="textareaWrapper">
+          <textarea id="STDIN"></textarea>
+          <div class="label">STDIN</div>
+        </div>
+        <div class="textareaWrapper">
+          <div class="memory" id="memory"></div>
+          <div class="label">memory</div>
+        </div>
+      </div>
+      <div class="card bottom split">
+        <div class="textareaWrapper">
+          <textarea id="consoleDiv" readonly></textarea>
+          <div class="label">console</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="interpreter.js"></script>
+  </body>
+</html>
